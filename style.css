@@ -1,0 +1,359 @@
+
+    font-family: Roboto;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .doubletap {
+        width: 8%;
+        margin-left: 90px;
+    }
+
+    .signinbtn {
+        background-color: white;
+        color: rgb(45, 45, 248);
+        padding: 5px;
+        width: 80px;
+        border: 1px solid rgb(45, 45, 248);
+        border-radius: 8px;
+        margin-right: 20px;
+    }
+
+    .tryitbtn {
+        background-color: rgb(45, 45, 248);
+        color: white;
+        padding: 5px;
+        width: 80px;
+        border: 2px solid rgb(45, 45, 248);
+        border-radius: 8px;
+        margin-right: 80px;
+    }
+
+    .twoboxes {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .flexbox {
+        margin: 30px 0px 100px 80px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-weight: 550;
+        font-size: 45px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: x-large;
+    }
+
+    .gray {
+        color: gray;
+
+    }
+
+    .signupbtn {
+        background-color: rgb(45, 45, 248);
+        color: white;
+        padding: 5px;
+        width: 130px;
+        height: 40px;
+        border: 2px solid rgb(45, 45, 248);
+        border-radius: 8px;
+        margin-right: 10px;
+
+    }
+
+    .chatbtn {
+        background-color: white;
+        color: rgb(45, 45, 248);
+        padding: 5px;
+        width: 130px;
+        height: 40px;
+        border: 2px solid rgb(45, 45, 248);
+        border-radius: 8px;
+
+    }
+
+    .freetrial {
+        display: flex;
+        align-items: row;
+    }
+
+    h6 {
+        padding-right: 10px;
+        font-weight: 400;
+        font-size: x-small;
+
+    }
+
+
+
+    .icons {
+
+        height: 500px;
+        margin-top: 30px;
+
+    }
+
+    .horizontal_line {
+
+        width: 32%;
+        height: 2px;
+        background-color: lightgray;
+        border: none;
+
+    }
+
+    .flex_container_footer {
+
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+    }
+
+    .flex_container_footer_smaller_gap {
+
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    #footer_btn {
+
+        font-weight: bold;
+    }
+
+    .text_box_1 {
+
+        margin: auto;
+        max-width: 25%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+
+    }
+
+    .text_box_2 {
+
+
+        margin-top: 150px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 25%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+
+    }
+
+    .flex_container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1cm;
+        font-weight: bold
+    }
+
+    .collect_useful_info_image_box {
+        width: 320px;
+        height: 420px;
+        border-top: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        border-left: 1px solid lightgray;
+        border-radius: 15px 0 0px 15px
+    }
+
+    .collect_useful_info_image {
+        padding-top: 20px;
+        margin: 9%;
+        width: 78%;
+
+    }
+
+    .info_text_box {
+        width: 480px;
+        height: 420px;
+        background-color: rgb(50, 50, 255);
+        border-top: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        border-left: 0px solid lightgray;
+        border-radius: 0 15px 15px 0;
+
+    }
+
+    .collect_useful_info_text,
+    .collect_useful_info_text_paragraph {
+        color: white;
+        padding-left: 100px;
+        padding-top: 70px;
+        font-size: 18px;
+
+    }
+
+    .collect_useful_info_text_paragraph {
+        text-align: left;
+        padding-left: 40px;
+        padding-top: 70px;
+        font-size: 14px;
+
+    }
+
+    .get_paid_sooner_image_box {
+        width: 320px;
+        height: 420px;
+
+    }
+
+    .get_paid_sooner__image {
+        padding-top: 20px;
+        margin: 9%;
+        width: 78%;
+
+    }
+
+    .get_paid_sooner_text,
+    .get_paid_sooner_text_paragraph {
+        color: white;
+        padding-left: 135px;
+        padding-top: 70px;
+        font-size: 25px;
+
+    }
+
+    .get_paid_sooner_text_paragraph {
+        color: white;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 70px;
+        font-size: 14px;
+
+    }
+
+    footer {
+        background-color: rgb(50, 50, 255);
+        bottom: 0;
+        width: 100%;
+        height: 280px;
+        margin: 80px 0 0 -10px;
+        padding: 10px
+    }
+
+    .footer_text {
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #try_double_tap_today_text {
+        font-size: 28px;
+
+    }
+
+    #lets_get_started_text {
+        margin: -15px;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .footer_btns_children {
+        border-radius: 10px;
+        border: 2px solid red;
+
+    }
+
+    #chat_btn {
+        background-color: white;
+        color: blue;
+        border-radius: 6px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        height: 50%;
+
+    }
+
+    #get_started_btn {
+        background-color: limegreen;
+        color: white;
+        border-radius: 6px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        height: 50%;
+
+    }
+
+    #speech_bubble {
+        font-size: 25px;
+        padding-left: 1px;
+        padding-top: 7px;
+        padding-bottom: 1px;
+
+    }
+
+    #chat_with_us_text {
+        font-size: 12px;
+        font-weight: bolder;
+        padding-left: 40px;
+        padding-right: 15px;
+        margin-top: -20px;
+        
+
+    }
+
+    #arrows {
+        font-size: 8px;
+        padding-left: 116px;
+        padding-top: 12px;
+        padding-bottom: 3px;
+
+    }
+
+    #get_started_text {
+        font-size: 16px;
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 55px;
+        margin-top: -14px;
+        
+
+    }
+
+    /* BEGIN: New Styles */
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .section {
+        margin-bottom: 40px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .section-content {
+        font-size: 16px;
+        line-height: 1.5;
+    }
